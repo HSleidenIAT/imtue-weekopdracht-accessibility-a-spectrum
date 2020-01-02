@@ -100,7 +100,7 @@ nav .search {
   padding: 0 2em;
 }
 
-.search input {
+.search input, .search button {
   font-size: 1.6rem;
   height: 32px;
 }
@@ -109,12 +109,13 @@ nav .search {
   flex: 3;
 }
 
-.search input[type="submit"] {
+.search button[type="submit"] {
   flex: 1;
   margin-left: 1rem;
   background: #333;
   border: 0;
   color: white;
+  cursor: pointer;
 }
 
 /* || main layout */
@@ -200,13 +201,13 @@ audio {
 
 .comment-form label {
   align-self: center;
-  flex: 2;
+  flex: 1;
   text-align: right;
 }
 
 .comment-form input {
   margin-left: 1rem;
-  flex: 6;
+  flex: 8;
 }
 
 .show-hide {
@@ -229,6 +230,7 @@ audio {
   width: 30%;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .comment-container {
